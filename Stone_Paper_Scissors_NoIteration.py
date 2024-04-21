@@ -15,23 +15,23 @@ else:
         ComputerSelected = "Stone"
         match Userchoice:
             case 2:
-                print("Win",'Computer Selected ->',ComputerSelected)
+                print("WIN",'Computer Selected ->',ComputerSelected)
             case 3:
-                print("Loose",'Computer Selected ->',ComputerSelected)
+                print("LOSE",'Computer Selected ->',ComputerSelected)
     elif(ComputerSection== 2):
         ComputerSelected = "Paper"
         match Userchoice:
             case 1:
-                print("Loose",'Computer Selected ->',ComputerSelected)
+                print("LOSE",'Computer Selected ->',ComputerSelected)
             case 3:
-                print("Win",'Computer Selected ->',ComputerSelected)
+                print("WIN",'Computer Selected ->',ComputerSelected)
     elif(ComputerSection == 3):
         ComputerSelected = "Scissors" 
         match Userchoice:
             case 1:
-                print("Win",'Computer Selected ->',ComputerSelected)
+                print("WIN",'Computer Selected ->',ComputerSelected)
             case 2:
-                print("Loose",'Computer Selected ->',ComputerSelected)
+                print("LOSE",'Computer Selected ->',ComputerSelected)
     else:
         print("Oops! You entered wrong")
     
